@@ -1,0 +1,40 @@
+{
+  "name": "localnet",
+  "version": "1.0.0",
+  "description": "Local network scanner",
+  "license": "MIT",
+  "keywords": [
+    "network",
+    "scanner",
+    "ping",
+    "mac-address",
+    "local-network",
+    "device-discovery"
+  ],
+  "author": {
+    "name": "Faglo",
+    "url": "https://github.com/faglo"
+  },
+  "main": "index.ts",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "start": "bun run index.ts"
+  },
+  "bin": {
+    "localnet": "index.ts"
+  },
+  "engines": {
+    "bun": ">=1.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/faglo/localnet.git"
+  }
+}
