@@ -1,6 +1,6 @@
 {
   "name": "localnet",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Local network scanner",
   "license": "MIT",
   "keywords": [
@@ -28,7 +28,7 @@
     "start": "bun run index.ts"
   },
   "bin": {
-    "localnet": "index.ts"
+    "localnet": "./index.ts"
   },
   "engines": {
     "bun": ">=1.2.0"

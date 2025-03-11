@@ -1,3 +1,5 @@
+#!/usr/bin/env bun
+
 const OUIs_LINK =
   "https://raw.githubusercontent.com/nmap/nmap/refs/heads/master/nmap-mac-prefixes";
 const IS_WINDOWS = process.platform === "win32";
